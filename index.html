@@ -13,10 +13,11 @@
     </head>
     <body>
         <div id="center-div">
-            <input type="text" placeholder="Paste your spotify URL here" autocomplete="false" id="input">
-            <button type="submit" id="send-button" class="btn btn-outline-dark">Search</button>
-        </div>
-        
+            <form action="/" method="post">
+                <input type="text" name="spotifyUrl" placeholder="Paste your spotify URL here" autocomplete="false" id="input">
+                <button type="submit" id="send-button" class="btn btn-outline-dark">Search</button>
+            </form>
+        </div> 
         <script src="app.js" type="text.js"></script>
     </body>
 </html>
